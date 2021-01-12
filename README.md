@@ -1,7 +1,7 @@
 # Project_recommender_system_movie_rating
 ## project description:
 Recommender systems can be found everywhere in tody's world. be it movie recommendation on Netflix or products recommendations on Amazon,
-recommender system are making a significant impact, and it help users to easlity navigate through millions of products or tons of content(articles/videos/movies).\
+recommender system are making a significant impact, and it help users to easly navigate through millions of products or tons of content(articles/videos/movies).\
 
 In this projects we build a recommender system model using Deep learning and neural networks.
 
@@ -59,24 +59,26 @@ we will train our recommender model using 80% of data and test it on the rest of
    - we use the user and movie as an inputs, then we create two embeddings, and fkatten both embedding
    -  The concatenat the user-movie int feature vector 
    
-    - spiting the dataset:
+   -  spiting the dataset
    We have prepared the data for building the recommender model, we split the dataset inot trining and test sets. we split it into 80 to 20 ration\
    to train the model and test its accuracy.
    We imort keras from the tensoflowlibrary and build model on the training dataset,\
    there are multipule layers than can be tuned to imporve the performance of the model.
-   -- fi the model we passing training and we set as x target for user and mvoie training an y target for rating treaing, we set the epoch for 25, and\
-   the size of 1024, veebose= 2 so we can train faster in google colab.We set validation on testing data,
+   -- we fit the model,  set a x target for user and mvoie training and y target for rating treaing,the epoch for 25, and\
+   the batch size of 1024, veebose= 2 so we can train faster in google colab.We set validation on testing data,
    - By the end we get 0.6259 of error
    
    ## issue
    None
    
    ### Contribution:
-   you are welcome to pull request, and contribute to the project.
+   You are welcome to pull request, and contribute to the project please raise the issue and test it.
    
    
    ### Licence
-   Copy right David Gabriel 
+   ```
+   Copyright (c) 2021 David Gabriel 
+   ```
    
   
    
