@@ -1,9 +1,9 @@
 # Project_recommender_system_movie_rating
 ## project description:
 Recommender systems can be found everywhere in tody's world. be it movie recommendation on Netflix or products recommendations on Amazon,
-recommender system are making a significant impact, and it help users to easly navigate through millions of products or tons of content(articles/videos/movies).\
+recommender system are making a significant impact, and it help users to easly navigate through millions of products or tons of content(articles/videos/movies).
 
-In this projects we build a recommender system model using Deep learning and neural networks.
+In this projects we build a recommender system model using Deep learning and neural networks for the movie rating.
 
 
 ## Dependencies
@@ -54,11 +54,11 @@ we will train our recommender model using 80% of data and test it on the rest of
  
 
    - Build the  model and compile it
-   - Make our neural network:\
+   - Make our neural network:
    - we use the user and movie as an inputs, then we create two embeddings, and fkatten both embedding
    -  The concatenat the user-movie int feature vector 
    
-   -  spiling the dataset:\
+   -  Split the dataset:
    We have prepared the data for building the recommender model, we split the dataset inot trining and test sets. we split it into 80 to 20 ration\
    to train the model and test its accuracy.
    We imort keras from the tensoflowlibrary and build model on the training dataset,\
