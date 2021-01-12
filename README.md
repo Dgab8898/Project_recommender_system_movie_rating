@@ -48,19 +48,19 @@ we will train our recommender model using 80% of data and test it on the rest of
 
 - We cast user id column into categorical, doing this authomatically assigned integer in coding, starting from zero to each user id. then we assinged this code\   to new column called new user id. we do the same to Movie id. Then we convert user_id and movie id to ``nparray``. then get the number user and movie id
  
-   - Build the  model and compile it
-   - Make our neural network:
-   - we use the user and movie as an inputs, then we create two embeddings, and fkatten both embedding
-   -  The concatenat the user-movie int feature vector 
+ - Build the  model and compile it
+ - Make our neural network:
+ - we use the user and movie as an inputs, then we create two embeddings, and fkatten both embedding
+ -  The concatenat the user-movie int feature vector 
    
-   -  Split the dataset:
-   We have prepared the data for building the recommender model, we split the dataset inot trining and test sets. we split it into 80 to 20 ration\
+ -  Split the dataset:
+   We have prepared the data for building the recommender model, we split the dataset inot trining and test sets. we split it into 80 to 20 ratio\
    to train the model and test its accuracy.
    We imort keras from the tensoflowlibrary and build model on the training dataset,\
    there are multipule layers than can be tuned to imporve the performance of the model.
-   - we fit the model,  set a x target for user and mvoie training and y target for rating treaing,the epoch for 25, and\
+  - we fit the model,  set a x target for user and mvoie training and y target for rating treaing,the epoch for 25, and\
    the batch size of 1024, veebose= 2 so we can train faster in google colab.We set validation on testing data,
-   - By the end we get 0.6259 of error
+  - By the end we get 0.6259 of error
    
    ## issue
    None
