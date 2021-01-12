@@ -41,12 +41,11 @@ Dataset source: http://files.grouplens.org/datasets/movielens
 That data used in this project is a subset from open sourced movie lens datasetand contain 20million of movie rating. the record consists of three column(User_id, movie_id, rating).\
 we will train our recommender model using 80% of data and test it on the rest of the 20% user rating.
 
--import the libraries:\
+- import the libraries:\
   we start jupyter notebook on google colab and import all dependencies and libraties.
   
- We then load and read teh dataset using pandas library.
- _ step3:Exploartory analysis
-  wee explore our data
+-  We then load and read the dataset using pandas library.
+
   
 
  We cast user id column into categorical, doing this authomatically assigned integer in coding, starting from zero to each user id. then we assinged this code to new column called new user id. we do the same to Movie id.\
@@ -63,7 +62,7 @@ we will train our recommender model using 80% of data and test it on the rest of
    to train the model and test its accuracy.
    We imort keras from the tensoflowlibrary and build model on the training dataset,\
    there are multipule layers than can be tuned to imporve the performance of the model.
-   -- we fit the model,  set a x target for user and mvoie training and y target for rating treaing,the epoch for 25, and\
+   - we fit the model,  set a x target for user and mvoie training and y target for rating treaing,the epoch for 25, and\
    the batch size of 1024, veebose= 2 so we can train faster in google colab.We set validation on testing data,
    - By the end we get 0.6259 of error
    
@@ -82,8 +81,8 @@ we will train our recommender model using 80% of data and test it on the rest of
   
    
    ### Reference:
-   -Intelligeent Pronect using Python.\
-   -https://colab.research.google.com\
-   -https://www.udemy.com/course/deep-learning-tensorflow-2/learn/lecture/16271032#overview
+   - Intelligeent Pronect using Python.
+   - https://colab.research.google.com
+   - https://www.udemy.com/course/deep-learning-tensorflow-2/learn/lecture/16271032#overview
 
 
