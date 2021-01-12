@@ -46,12 +46,8 @@ we will train our recommender model using 80% of data and test it on the rest of
   
 -  We then load and read the dataset using pandas library.
 
-  
-
- We cast user id column into categorical, doing this authomatically assigned integer in coding, starting from zero to each user id. then we assinged this code to new column called new user id. we do the same to Movie id.\
- then we convert user_id and movie id to ``nparray``. then get the number user and movie id
+- We cast user id column into categorical, doing this authomatically assigned integer in coding, starting from zero to each user id. then we assinged this code\   to new column called new user id. we do the same to Movie id. Then we convert user_id and movie id to ``nparray``. then get the number user and movie id
  
-
    - Build the  model and compile it
    - Make our neural network:
    - we use the user and movie as an inputs, then we create two embeddings, and fkatten both embedding
