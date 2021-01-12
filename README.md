@@ -71,7 +71,7 @@ we will train our recommender model using 80% of data and test it on the rest of
    None
    
    ### Contribution:
-   You are welcome to pull request, and contribute to the project please raise the issue and test it.
+   Any pull request is welcome, and to contribute to the project please raise the issue and test it.
    
    
    ### Licence
@@ -82,8 +82,8 @@ we will train our recommender model using 80% of data and test it on the rest of
   
    
    ### Reference:
-   -Intelligeent Pronect using Python.
-   -https://colab.research.google.com/
+   -Intelligeent Pronect using Python.\
+   -https://colab.research.google.com\
    -https://www.udemy.com/course/deep-learning-tensorflow-2/learn/lecture/16271032#overview
 
 
