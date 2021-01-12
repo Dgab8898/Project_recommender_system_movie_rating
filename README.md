@@ -60,7 +60,7 @@ we will train our recommender model using 80% of data and test it on the rest of
    there are multipule layers than can be tuned to imporve the performance of the model.
   - we fit the model,  set a x target for user and mvoie training and y target for rating treaing,the epoch for 25, and\
    the batch size of 1024, veebose= 2 so we can train faster in google colab.We set validation on testing data,
-  - By the end we get 0.6259 of error
+  - By the end we get 0.6259 loss validation
    
    ## issue
    None
