@@ -41,25 +41,24 @@ Dataset source: http://files.grouplens.org/datasets/movielens
 That data used in this project is a subset from open sourced movie lens datasetand contain 20million of movie rating. the record consists of three column(User_id, movie_id, rating).\
 we will train our recommender model using 80% of data and test it on the rest of the 20% user rating.
 
--Step1: import the libraries:\
+-import the libraries:\
   we start jupyter notebook on google colab and import all dependencies and libraties.
   
- - Step2: Read the data set
  We then load and read teh dataset using pandas library.
  _ step3:Exploartory analysis
   wee explore our data
   
- _ feature engineering:
+
  We cast user id column into categorical, doing this authomatically assigned integer in coding, starting from zero to each user id. then we assinged this code to new column called new user id. we do the same to Movie id.\
  then we convert user_id and movie id to ``nparray``. then get the number user and movie id
  
 
    - Build the  model and compile it
-   - Make our neural network:
+   - Make our neural network:\
    - we use the user and movie as an inputs, then we create two embeddings, and fkatten both embedding
    -  The concatenat the user-movie int feature vector 
    
-   -  spiting the dataset
+   -  spiling the dataset:\
    We have prepared the data for building the recommender model, we split the dataset inot trining and test sets. we split it into 80 to 20 ration\
    to train the model and test its accuracy.
    We imort keras from the tensoflowlibrary and build model on the training dataset,\
@@ -83,8 +82,8 @@ we will train our recommender model using 80% of data and test it on the rest of
   
    
    ### Reference:
-   Intelligeent Pronect using Python.
-   https://colab.research.google.com/
-   https://www.udemy.com/course/deep-learning-tensorflow-2/learn/lecture/16271032#overview
+   -Intelligeent Pronect using Python.
+   -https://colab.research.google.com/
+   -https://www.udemy.com/course/deep-learning-tensorflow-2/learn/lecture/16271032#overview
 
 
